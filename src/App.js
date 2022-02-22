@@ -1,7 +1,11 @@
+import SearchForm from './Components/SearchForm';
+import Images from './Components/Images';
+
 const App = () => {
   return (
     <div className="App">
-      <h1>Images</h1>
+      <SearchForm/>
+      <Images/>
     </div>
   );
 }
